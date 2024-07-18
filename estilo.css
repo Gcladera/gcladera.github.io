@@ -10,7 +10,7 @@ body {
     white-space: pre-wrap;
     text-align: center;
     padding: 1px;
-    background-image: url("/Images/freepik-export-20240718022731eK4y.png");
+    background-image: url("Images/freepik-export-20240718022731eK4y.png");
     background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen de fondo */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
