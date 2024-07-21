@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
     
 }
 .encabezado{
@@ -63,24 +64,31 @@ body {
     text-align: center;
     /* padding: 1px; */
 }
-.seccion-2, .seccion-3 {
+.seccion-2{
     /* background: hsl(0, 0%, 100%); */
     /* color: #ecec06; */
     font-size: small;
-    text-align: center;
+    text-align: left;
     display:flex;
     flex-direction: row;
     /* padding: 100px; */
     /* padding-left: 50px; */
     padding-right: 50px;
-    /* padding-top: 10px; */
-    padding-bottom: 0px;
+    padding-top: 20px;
+    
 }
 .seccion-3{
-    
+    padding-top: 20px;
     background-color: #E9E5DA;
+    font-size: small;
     } 
-
+.seccion-4{
+    padding-top: 20px;
+    background-color: #ffffff;
+    font-size: small;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    }
 .parte_izquierda{
     flex:1;
     /* padding-right:20px; */
@@ -101,12 +109,22 @@ body {
     
     flex-direction: column;
 } */
-.paragrafo {
+.paragrafo, .paragrafo-3 {
     font-family: Arial, Helvetica, sans-serif;
     /* font-size: 1.2em; */
     text-align: justify;
     margin: 0.5em 1em;
     line-height: 1.6;
+}
+
+.paragrafo-3{
+    padding-left: 60px;
+    
+}
+.contenedor, .imagenes {
+    width: 80%; /* Ajusta este valor según sea necesario */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    text-align: center; /* Centra el texto dentro del contenedor */
 }
 h1{
     text-align: center;
@@ -131,6 +149,19 @@ h1, h2 {
 /* } */
 
 
+.imagenes {
+    
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 20px; Espacio entre el texto y las imágenes */
+    padding-top: 100px;
+    padding-left: 60px;
+}
+
+.imagen {
+    width: 20%; /* Ajusta el tamaño de las imágenes según sea necesario */
+    height: auto;
+}
 
 
 
@@ -138,40 +169,67 @@ h1, h2 {
 
 
 
-
-/*LINKS*/
-
-a:link {
-    color: #000000;
+/* Estilo para enlaces con la clase enlace-1 en su estado normal */
+.enlace-1:link {
+    color: #4805d8;
     text-decoration: none;
 }
+
+/* Estilo para enlaces con la clase enlace-1 cuando son visitados */
+.enlace-1:visited {
+    color: #4805d8; /* Puedes ajustar este color si lo deseas */
+    text-decoration: none;
+}
+
+/* Estilo para enlaces con la clase enlace-1 cuando el mouse pasa sobre ellos */
+.enlace-1:hover {
+    color: #cd4b2b;
+    text-decoration: none;
+}
+
+/* Estilo para enlaces con la clase enlace-1 cuando están activos */
+.enlace-1:active {
+    color: #0303fa; /* Color de los enlaces cuando se hace clic en ellos */
+    text-decoration: none;
+}
+
+/* Estilo para cualquier enlace en general */
+a {
+    text-decoration: none;
+    color: inherit; /* Hereda el color definido en otras reglas */
+}
+
+/* Estilo para cualquier enlace cuando son visitados */
 a:visited {
-    /* color: #0317f5; */
     text-decoration: none;
-    /* background-color: #ecec06; */
+    color: #000000;
 }
+
+/* Estilo para cualquier enlace cuando el mouse pasa sobre ellos */
 a:hover {
-    /* color: #fa0909; */
-    background-color: #f0d99a;
+    text-decoration: none;
+    color: #cd4b2b;
+
 }
+
+/* Estilo para enlaces con la clase links_paginas cuando están activos */
 .links_paginas:active {
     color: #0303fa; /* Color de los enlaces cuando se hace clic en ellos */
+    text-decoration: none;
 }
 
-.horizontal li{
+/* Estilo para la clase horizontal */
+.horizontal li {
     display: inline;
-    margin-right: 100;
+    margin-right: 100px; /* Añadido 'px' para la unidad de medida */
     font-size: large;
-
 }
-.horizontal, .links_paginas {
+
+/* Estilo para la clase horizontal */
+.horizontal {
     margin: 0;
-    color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     background-color: #E9E5DA;
     text-align: center;
     /* padding: 4px; */
 }
-
-/* .horizontal, .links_paginas:hover {
-    background-color: #E9E5DA;
-} */
