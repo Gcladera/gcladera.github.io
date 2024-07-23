@@ -177,14 +177,25 @@ h1, h2 {
 
 
 /* Estilo para enlaces con la clase enlace-1 en su estado normal */
+/* Estilo para enlaces con la clase enlace-1 en su estado normal */
 .enlace-1:link {
     color: #4805d8;
     text-decoration: none;
 }
+.ul:link{
+    color: #4805d8;
+    text-decoration: none;
 
+}
+
+.ul:hover{
+    color: #cd4b2b;
+    text-decoration:underline;
+
+}
 /* Estilo para enlaces con la clase enlace-1 cuando son visitados */
 .enlace-1:visited {
-    color: #4805d8; /* Puedes ajustar este color si lo deseas */
+    color: #4805d8; /* Ajusta este color si lo deseas */
     text-decoration: none;
 }
 
@@ -202,7 +213,7 @@ h1, h2 {
 
 /* Estilo para cualquier enlace en general */
 a {
-    text-decoration: none;
+    text-decoration:none;
     color: inherit; /* Hereda el color definido en otras reglas */
 }
 
@@ -216,8 +227,14 @@ a:visited {
 a:hover {
     text-decoration: none;
     color: #cd4b2b;
-
 }
+
+/* Estilo para enlaces con la clase links_paginas cuando están activos */
+.links_paginas:active {
+    color: #0303fa; /* Color de los enlaces cuando se hace clic en ellos */
+    text-decoration: none;
+}
+
 
 /* Estilo para enlaces con la clase links_paginas cuando están activos */
 .links_paginas:active {
@@ -245,11 +262,6 @@ a:hover {
 
 
 /* Conócenos */
-
-
-
-
-
 
 .contenedor-1, .contenedor-2{
     
