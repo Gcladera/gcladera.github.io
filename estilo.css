@@ -123,6 +123,7 @@ body {
 .paragrafo-3{
     padding-left: 60px;
     
+    
 }
 .contenedor, .imagenes {
     width: 80%; /* Ajusta este valor según sea necesario */
@@ -237,10 +238,6 @@ a:hover {
 
 
 /* Estilo para enlaces con la clase links_paginas cuando están activos */
-.links_paginas:active {
-    color: #0303fa; /* Color de los enlaces cuando se hace clic en ellos */
-    text-decoration: none;
-}
 
 /* Estilo para la clase horizontal */
 .horizontal li {
